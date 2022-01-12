@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.testAPI.TC_004_Update_StudentTest">
+        <methods>
+          <include name="getStudentRecordUsingDeSerialization" invocation-numbers="0"/>
+          <include name="createNewStudentUsingSerialiation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_004_Update_StudentTest -->
+      <class name="com.testAPI.TC_001_Get_All_StudentsTest">
+        <methods>
+          <include name="getAllStudentsList" invocation-numbers="0"/>
+          <include name="initializeAPI"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_001_Get_All_StudentsTest -->
+      <class name="com.testAPI.TC_003_Add_StudentTest">
+        <methods>
+          <include name="createNewStudentUsingSerialiation" invocation-numbers="0"/>
+          <include name="getStudentRecordUsingDeSerialization" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_003_Add_StudentTest -->
+      <class name="com.testAPI.TC_002_Get_Student_By_IDTest">
+        <methods>
+          <include name="initializeAPI"/>
+          <include name="getAllStudentsList" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_002_Get_Student_By_IDTest -->
+      <class name="com.testAPI.TC_005_Delete_StudentTest">
+        <methods>
+          <include name="deleteStudentTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_005_Delete_StudentTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

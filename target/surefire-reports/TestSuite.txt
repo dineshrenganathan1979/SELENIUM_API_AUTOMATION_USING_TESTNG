@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 31.139 s <<< FAILURE! - in TestSuite
+getAllStudentsList(com.testAPI.TC_001_Get_All_StudentsTest)  Time elapsed: 4.89 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at com.testAPI.TC_001_Get_All_StudentsTest.getAllStudentsList(TC_001_Get_All_StudentsTest.java:31)
+
+getAllStudentsList(com.testAPI.TC_002_Get_Student_By_IDTest)  Time elapsed: 4.055 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at com.testAPI.TC_002_Get_Student_By_IDTest.getAllStudentsList(TC_002_Get_Student_By_IDTest.java:45)
+
+createNewStudentUsingSerialiation(com.testAPI.TC_003_Add_StudentTest)  Time elapsed: 4.293 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at com.testAPI.TC_003_Add_StudentTest.createNewStudentUsingSerialiation(TC_003_Add_StudentTest.java:48)
+
+getStudentRecordUsingDeSerialization(com.testAPI.TC_003_Add_StudentTest)  Time elapsed: 4.064 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at com.testAPI.TC_003_Add_StudentTest.getStudentRecordUsingDeSerialization(TC_003_Add_StudentTest.java:59)
+
+createNewStudentUsingSerialiation(com.testAPI.TC_004_Update_StudentTest)  Time elapsed: 4.097 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at com.testAPI.TC_004_Update_StudentTest.createNewStudentUsingSerialiation(TC_004_Update_StudentTest.java:44)
+
+getStudentRecordUsingDeSerialization(com.testAPI.TC_004_Update_StudentTest)  Time elapsed: 4.073 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at com.testAPI.TC_004_Update_StudentTest.getStudentRecordUsingDeSerialization(TC_004_Update_StudentTest.java:54)
+
+deleteStudentTest(com.testAPI.TC_005_Delete_StudentTest)  Time elapsed: 4.055 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at com.testAPI.TC_005_Delete_StudentTest.deleteStudentTest(TC_005_Delete_StudentTest.java:20)
+
