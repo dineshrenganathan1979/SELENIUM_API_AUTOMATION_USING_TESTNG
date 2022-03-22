@@ -27,7 +27,7 @@ public class StudentAPITestWithoutSerialization {
 	@BeforeClass
 	public void initializeAPI() {
 		
-		RestAssured.baseURI="http://localhost:8095";
+		RestAssured.baseURI="http://localhost:8888";
 	
 		
 	}

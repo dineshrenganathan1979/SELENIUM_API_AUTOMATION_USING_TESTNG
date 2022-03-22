@@ -49,7 +49,7 @@ public class StudentAPITestWithSerialization_DeSerialization {
 				.contentType(ContentType.JSON)
 				.body(student)
 				.when()
-				.post("http://localhost:8095/student");
+				.post("http://localhost:8888/student");
 		
 		response.then().assertThat().statusCode(201);
 		response.then().assertThat().statusLine( "HTTP/1.1 201 ");
@@ -61,7 +61,7 @@ public class StudentAPITestWithSerialization_DeSerialization {
 	@Test(priority=1)
 	public void getStudentRecordUsingDeSerialization() {
 		
-		Student student = given().when().get("http://localhost:8095/student/101").as(Student.class);
+		Student student = given().when().get("http://localhost:8888/student/101").as(Student.class);
 		Assert.assertEquals(student.getFirstName(), firstName);
 		Assert.assertEquals(student.getLastName(), lastName);
 		Assert.assertEquals(student.getEmail(), emailID);

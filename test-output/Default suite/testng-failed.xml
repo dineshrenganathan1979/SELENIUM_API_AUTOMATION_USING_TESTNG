@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testAPI.Delete_StudentTest">
+      <class name="com.testAPI.StudentAPITestWithSerialization_DeSerialization">
         <methods>
-          <include name="deleteStudentTest"/>
+          <include name="getStudentRecordUsingDeSerialization"/>
         </methods>
-      </class> <!-- com.testAPI.Delete_StudentTest -->
+      </class> <!-- com.testAPI.StudentAPITestWithSerialization_DeSerialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

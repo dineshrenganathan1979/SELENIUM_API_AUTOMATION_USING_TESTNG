@@ -24,7 +24,7 @@ public class Serialization_DeSerialization_Demo  {
          
          //Achieving the Serialization using FileOuputStream and ObjectOutputStream
          
-         FileOutputStream fos = new FileOutputStream("test.txt");
+         FileOutputStream fos = new FileOutputStream("serialization.txt");
          ObjectOutputStream oos = new ObjectOutputStream(fos);
          
          oos.writeObject(t1);
@@ -32,7 +32,7 @@ public class Serialization_DeSerialization_Demo  {
 
          //Achieving De-Serialization using FileInputStream and ObjectInputStream
          
-         FileInputStream fis = new FileInputStream("test.txt");
+         FileInputStream fis = new FileInputStream("serialization.txt");
          ObjectInputStream ois = new ObjectInputStream(fis);
          
          Test t2 = (Test) ois.readObject();
