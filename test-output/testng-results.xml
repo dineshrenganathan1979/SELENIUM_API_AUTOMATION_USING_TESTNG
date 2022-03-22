@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-24T15:08:30 IST" name="Suite" finished-at="2021-12-24T15:08:32 IST" duration-ms="2409">
+  <suite started-at="2022-03-22T15:20:35 IST" name="Suite" finished-at="2022-03-22T15:20:37 IST" duration-ms="2361">
     <groups>
     </groups>
-    <test started-at="2021-12-24T15:08:30 IST" name="Test" finished-at="2021-12-24T15:08:32 IST" duration-ms="2409">
+    <test started-at="2022-03-22T15:20:35 IST" name="Test" finished-at="2022-03-22T15:20:37 IST" duration-ms="2361">
       <class name="com.testAPI.TC_005_Delete_StudentTest">
-        <test-method signature="deleteStudentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_005_Delete_StudentTest@4bff7da0]" started-at="2021-12-24T15:08:32 IST" name="deleteStudentTest" data-provider="getDeleteDataFromExcel" finished-at="2021-12-24T15:08:32 IST" duration-ms="18" status="PASS">
+        <test-method signature="deleteStudentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_005_Delete_StudentTest@7fd7a283]" started-at="2022-03-22T15:20:37 IST" name="deleteStudentTest" data-provider="getDeleteDataFromExcel" finished-at="2022-03-22T15:20:37 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,11 +35,11 @@
         </test-method> <!-- deleteStudentTest -->
       </class> <!-- com.testAPI.TC_005_Delete_StudentTest -->
       <class name="com.testAPI.TC_001_Get_All_StudentsTest">
-        <test-method is-config="true" signature="initializeAPI()[pri:0, instance:com.testAPI.TC_001_Get_All_StudentsTest@62656be4]" started-at="2021-12-24T15:08:30 IST" name="initializeAPI" finished-at="2021-12-24T15:08:30 IST" duration-ms="458" status="PASS">
+        <test-method is-config="true" signature="initializeAPI()[pri:0, instance:com.testAPI.TC_001_Get_All_StudentsTest@4a07d605]" started-at="2022-03-22T15:20:35 IST" name="initializeAPI" finished-at="2022-03-22T15:20:35 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeAPI -->
-        <test-method signature="getAllStudentsList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_001_Get_All_StudentsTest@62656be4]" started-at="2021-12-24T15:08:31 IST" name="getAllStudentsList" data-provider="getAllStudentDetails" finished-at="2021-12-24T15:08:31 IST" duration-ms="651" status="PASS">
+        <test-method signature="getAllStudentsList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_001_Get_All_StudentsTest@4a07d605]" started-at="2022-03-22T15:20:36 IST" name="getAllStudentsList" data-provider="getAllStudentDetails" finished-at="2022-03-22T15:20:37 IST" duration-ms="696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
         </test-method> <!-- getAllStudentsList -->
       </class> <!-- com.testAPI.TC_001_Get_All_StudentsTest -->
       <class name="com.testAPI.TC_004_Update_StudentTest">
-        <test-method signature="createNewStudentUsingSerialiation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testAPI.TC_004_Update_StudentTest@638ef7ed]" started-at="2021-12-24T15:08:32 IST" name="createNewStudentUsingSerialiation" data-provider="getPutDatafromExcel" finished-at="2021-12-24T15:08:32 IST" duration-ms="28" status="PASS">
+        <test-method signature="createNewStudentUsingSerialiation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testAPI.TC_004_Update_StudentTest@7ac296f6]" started-at="2022-03-22T15:20:37 IST" name="createNewStudentUsingSerialiation" data-provider="getPutDatafromExcel" finished-at="2022-03-22T15:20:37 IST" duration-ms="39" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewStudentUsingSerialiation -->
-        <test-method signature="getStudentRecordUsingDeSerialization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_004_Update_StudentTest@638ef7ed]" started-at="2021-12-24T15:08:32 IST" name="getStudentRecordUsingDeSerialization" data-provider="getPutDatafromExcel" finished-at="2021-12-24T15:08:32 IST" duration-ms="18" status="PASS">
+        <test-method signature="getStudentRecordUsingDeSerialization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_004_Update_StudentTest@7ac296f6]" started-at="2022-03-22T15:20:37 IST" name="getStudentRecordUsingDeSerialization" data-provider="getPutDatafromExcel" finished-at="2022-03-22T15:20:37 IST" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,11 +188,11 @@
         </test-method> <!-- getStudentRecordUsingDeSerialization -->
       </class> <!-- com.testAPI.TC_004_Update_StudentTest -->
       <class name="com.testAPI.TC_002_Get_Student_By_IDTest">
-        <test-method is-config="true" signature="initializeAPI()[pri:0, instance:com.testAPI.TC_002_Get_Student_By_IDTest@4ef74c30]" started-at="2021-12-24T15:08:31 IST" name="initializeAPI" finished-at="2021-12-24T15:08:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initializeAPI()[pri:0, instance:com.testAPI.TC_002_Get_Student_By_IDTest@a8ef162]" started-at="2022-03-22T15:20:37 IST" name="initializeAPI" finished-at="2022-03-22T15:20:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeAPI -->
-        <test-method signature="getAllStudentsList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_002_Get_Student_By_IDTest@4ef74c30]" started-at="2021-12-24T15:08:31 IST" name="getAllStudentsList" data-provider="getSingleStudentDetails" finished-at="2021-12-24T15:08:32 IST" duration-ms="419" status="PASS">
+        <test-method signature="getAllStudentsList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_002_Get_Student_By_IDTest@a8ef162]" started-at="2022-03-22T15:20:37 IST" name="getAllStudentsList" data-provider="getSingleStudentDetails" finished-at="2022-03-22T15:20:37 IST" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@
         </test-method> <!-- getAllStudentsList -->
       </class> <!-- com.testAPI.TC_002_Get_Student_By_IDTest -->
       <class name="com.testAPI.TC_003_Add_StudentTest">
-        <test-method signature="createNewStudentUsingSerialiation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testAPI.TC_003_Add_StudentTest@7283d3eb]" started-at="2021-12-24T15:08:32 IST" name="createNewStudentUsingSerialiation" data-provider="getPostDatafromExcel" finished-at="2021-12-24T15:08:32 IST" duration-ms="205" status="PASS">
+        <test-method signature="createNewStudentUsingSerialiation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testAPI.TC_003_Add_StudentTest@2eea88a1]" started-at="2022-03-22T15:20:37 IST" name="createNewStudentUsingSerialiation" data-provider="getPostDatafromExcel" finished-at="2022-03-22T15:20:37 IST" duration-ms="221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -296,7 +296,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewStudentUsingSerialiation -->
-        <test-method signature="getStudentRecordUsingDeSerialization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_003_Add_StudentTest@7283d3eb]" started-at="2021-12-24T15:08:32 IST" name="getStudentRecordUsingDeSerialization" data-provider="getPostDatafromExcel" finished-at="2021-12-24T15:08:32 IST" duration-ms="45" status="PASS">
+        <test-method signature="getStudentRecordUsingDeSerialization(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testAPI.TC_003_Add_StudentTest@2eea88a1]" started-at="2022-03-22T15:20:37 IST" name="getStudentRecordUsingDeSerialization" data-provider="getPostDatafromExcel" finished-at="2022-03-22T15:20:37 IST" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>

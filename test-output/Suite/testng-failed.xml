@@ -6,12 +6,35 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.testAPI.TC_004_Update_StudentTest">
+        <methods>
+          <include name="getStudentRecordUsingDeSerialization" invocation-numbers="0"/>
+          <include name="createNewStudentUsingSerialiation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_004_Update_StudentTest -->
+      <class name="com.testAPI.TC_005_Delete_StudentTest">
+        <methods>
+          <include name="deleteStudentTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_005_Delete_StudentTest -->
+      <class name="com.testAPI.TC_003_Add_StudentTest">
+        <methods>
+          <include name="createNewStudentUsingSerialiation" invocation-numbers="0"/>
+          <include name="getStudentRecordUsingDeSerialization" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_003_Add_StudentTest -->
       <class name="com.testAPI.TC_002_Get_Student_By_IDTest">
         <methods>
           <include name="initializeAPI"/>
-          <include name="getAllStudentsList" invocation-numbers="0 0 0 0"/>
+          <include name="getAllStudentsList" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.testAPI.TC_002_Get_Student_By_IDTest -->
+      <class name="com.testAPI.TC_001_Get_All_StudentsTest">
+        <methods>
+          <include name="getAllStudentsList" invocation-numbers="0 0 0 0"/>
+          <include name="initializeAPI"/>
+        </methods>
+      </class> <!-- com.testAPI.TC_001_Get_All_StudentsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

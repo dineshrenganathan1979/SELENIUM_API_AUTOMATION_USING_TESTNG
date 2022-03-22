@@ -25,8 +25,8 @@ public class Update_Student_Details {
 	static String programmeName;
 	@BeforeClass
 	public void initializeAPI() {
-		
-		RestAssured.baseURI="http://localhost:8095";
+		//java -jar Student_App.jar --server.port=8888
+		RestAssured.baseURI="http://localhost:8888";
 		RestAssured.basePath="student/3";
 		
 		firstName = RestUtils.getStudentFirstName();

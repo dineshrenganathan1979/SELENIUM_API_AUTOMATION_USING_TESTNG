@@ -26,8 +26,8 @@ public class TC_002_Get_Student_By_IDTest {
 	
 	@BeforeClass
 	public void initializeAPI() {
-		//java -jar --server.port=8095
-		RestAssured.baseURI="http://localhost:8095";
+		//java -jar Student_App.jar --server.port=8888
+		RestAssured.baseURI="http://localhost:8888";
 		RestAssured.basePath="student/3";
 		
 	}
