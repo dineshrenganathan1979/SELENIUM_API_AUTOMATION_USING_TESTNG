@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-22T15:55:45 IST" name="Default suite" finished-at="2022-03-22T15:55:47 IST" duration-ms="1851">
+  <suite started-at="2022-03-23T10:27:04 IST" name="Default suite" finished-at="2022-03-23T10:27:07 IST" duration-ms="2886">
     <groups>
     </groups>
-    <test started-at="2022-03-22T15:55:45 IST" name="Default test" finished-at="2022-03-22T15:55:47 IST" duration-ms="1851">
-      <class name="com.testAPI.StudentAPITestWithSerialization_DeSerialization">
-        <test-method signature="createNewStudentUsingSerialiation()[pri:0, instance:com.testAPI.StudentAPITestWithSerialization_DeSerialization@2e55dd0c]" started-at="2022-03-22T15:55:45 IST" name="createNewStudentUsingSerialiation" finished-at="2022-03-22T15:55:47 IST" duration-ms="1780" status="PASS">
+    <test started-at="2022-03-23T10:27:04 IST" name="Default test" finished-at="2022-03-23T10:27:07 IST" duration-ms="2886">
+      <class name="com.testAPI.OAuth2_AuthenticationTest">
+        <test-method signature="getAccessToken()[pri:0, instance:com.testAPI.OAuth2_AuthenticationTest@378542de]" started-at="2022-03-23T10:27:04 IST" name="getAccessToken" finished-at="2022-03-23T10:27:06 IST" duration-ms="1876" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewStudentUsingSerialiation -->
-        <test-method signature="getStudentRecordUsingDeSerialization()[pri:1, instance:com.testAPI.StudentAPITestWithSerialization_DeSerialization@2e55dd0c]" started-at="2022-03-22T15:55:47 IST" name="getStudentRecordUsingDeSerialization" finished-at="2022-03-22T15:55:47 IST" duration-ms="46" status="PASS">
+        </test-method> <!-- getAccessToken -->
+        <test-method signature="getUserID()[pri:1, instance:com.testAPI.OAuth2_AuthenticationTest@378542de]" started-at="2022-03-23T10:27:06 IST" name="getUserID" finished-at="2022-03-23T10:27:07 IST" depends-on-methods="com.testAPI.OAuth2_AuthenticationTest.getAccessToken" duration-ms="448" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStudentRecordUsingDeSerialization -->
-      </class> <!-- com.testAPI.StudentAPITestWithSerialization_DeSerialization -->
+        </test-method> <!-- getUserID -->
+        <test-method signature="verifyPostMethod()[pri:1, instance:com.testAPI.OAuth2_AuthenticationTest@378542de]" started-at="2022-03-23T10:27:07 IST" name="verifyPostMethod" finished-at="2022-03-23T10:27:07 IST" depends-on-methods="com.testAPI.OAuth2_AuthenticationTest.getUserID" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostMethod -->
+      </class> <!-- com.testAPI.OAuth2_AuthenticationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testAPI.StudentAPITestWithSerialization_DeSerialization">
+      <class name="com.testAPI.OAuth_Authentication">
         <methods>
-          <include name="getStudentRecordUsingDeSerialization"/>
+          <include name="initializeAPI"/>
+          <include name="fetchAccessToken"/>
         </methods>
-      </class> <!-- com.testAPI.StudentAPITestWithSerialization_DeSerialization -->
+      </class> <!-- com.testAPI.OAuth_Authentication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
